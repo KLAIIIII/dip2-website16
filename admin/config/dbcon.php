@@ -1,13 +1,13 @@
 <?php
 // $host = "localhost";
-// $username = "id17909777_patipan";
-// $password = "Jackman@2516";
-// $database = "id17909777_website";
+// $username = "id17909782_wilaiwan";
+// $password = "liona@gmail.com";
+// $database = "id17909782_website";
 
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "websitedb";
+$database = "website";
 
 $con = mysqli_connect("$host", "$username", "$password", "$database");
 mysqli_set_charset($con,"utf8");

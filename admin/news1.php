@@ -43,8 +43,9 @@
                     }
                     $start = ($curpage * $perpage) - $perpage;
                     $PageSql = "SELECT * FROM hotnews ";
-                    $perpage = mysqli_query($con, $PageSql);
-                    $totalres = mysqli_num_rows($perpages);
+                    $pageres = mysqli_query($con, $PageSql);
+                    $totalres = mysqli_num_rows($pageres);
+
 
                     $endpage = ceil($totalres / $perpage);
                     $startpage =1;
