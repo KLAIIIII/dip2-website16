@@ -23,7 +23,7 @@
 
             <div class="card-body">
                 <?php 
-                    if(isset($_SESSION['success']) && $_SESSION['status'] !=''){
+                    if(isset($_SESSION['success']) && $_SESSION['success'] !=''){
                         echo '<h2 class="bg-warning text-white">' . $_SESSION['success'] . '</h2>';
                         unset($_SESSION['success']);
                     }
