@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $username = "id17909782_wilaiwan";
-$password = "liona@gmail.com";
+$password = "fMKJ%rehAT)#9VGf";
 $database = "id17909782_website";
 
 // $host = "localhost";
